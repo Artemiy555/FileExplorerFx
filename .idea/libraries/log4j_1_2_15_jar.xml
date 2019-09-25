@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="log4j-1.2.15.jar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/Downloads/log4j-1.2.15.jar.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/log4j-1.2.15.jar.zip!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/log4j-1.2.15.jar.zip!/" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="jar://$USER_HOME$/Downloads/log4j-1.2.15.jar.zip!/" />
+    </NATIVE>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/log4j-1.2.15.jar.zip!/" />
+    </SOURCES>
+    <jarDirectory url="jar://$USER_HOME$/Downloads/log4j-1.2.15.jar.zip!/" recursive="false" />
+    <jarDirectory url="jar://$USER_HOME$/Downloads/log4j-1.2.15.jar.zip!/" recursive="false" type="SOURCES" />
+  </library>
+</component>

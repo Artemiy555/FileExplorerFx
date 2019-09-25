@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="528.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationsfx.ControllerTableView">
+   <children>
+      <TableView fx:id="tableview" onKeyPressed="#keyPressed" onMouseClicked="#handleTableMouseClicked" prefHeight="528.0" prefWidth="608.0">
+         <columns>
+            <TableColumn fx:id="image" prefWidth="48.0" text="Окно" />
+            <TableColumn fx:id="name" prefWidth="231.0" text="Имя" />
+            <TableColumn fx:id="size" prefWidth="134.0" text="Размер" />
+            <TableColumn fx:id="date" prefWidth="190.0" text="Последнее изменение" />
+         </columns>
+      </TableView>
+   </children>
+</Pane>
