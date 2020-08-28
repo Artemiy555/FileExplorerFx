@@ -1,25 +1,24 @@
-package applicationsfx;
+package applicationsfx.exel;
 
 
+import applicationsfx.ClassTableEX;
 import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.MapValueFactory;
 import javafx.scene.control.cell.TextFieldTableCell;
-import javafx.stage.FileChooser;
 import javafx.util.Callback;
 import javafx.util.StringConverter;
 
 import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import java.io.File;
 import java.util.*;
 import java.util.prefs.Preferences;
 
-import static applicationsfx.Calculator.calculate;
+import static applicationsfx.exel.Calculator.calculate;
 
 public class ControllerTableEX {
 

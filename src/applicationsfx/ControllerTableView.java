@@ -21,15 +21,12 @@ import javafx.scene.layout.FlowPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import org.apache.log4j.Logger;
-//import org.jsoup.Jsoup;
-
 import java.awt.*;
 import java.io.*;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.List;
-//import org.apache.commons.io.FileUtils;
 import static applicationsfx.Controller.Fx1;
 
 
@@ -60,6 +57,7 @@ public class ControllerTableView implements Initializable {
     private TableColumn<FileInfo, String> name;
     @FXML
     private TableColumn<FileInfo, String> size;
+
     private Desktop desktop;
 
 
@@ -90,7 +88,7 @@ public class ControllerTableView implements Initializable {
     }
 
     @Override
-    public void initialize(URL location, ResourceBundle resources) {
+        public void initialize(URL location, ResourceBundle resources) {
 
 
         Fx2 = new ClassTableView();
@@ -480,7 +478,7 @@ public class ControllerTableView implements Initializable {
         }
 
 
-        if (keyEvent.getCode() == KeyCode.F3) {
+        if (keyEvent.getCode() == KeyCode.F3) {//Копирование с изменением
             b = str;
             String stringlist = "";
             try {
@@ -531,7 +529,7 @@ public class ControllerTableView implements Initializable {
 
         }
         String s2 = null;
-        if (keyEvent.getCode() == KeyCode.F4) {
+        if (keyEvent.getCode() == KeyCode.F4) {//Вставляем с изменением
             if (coppyTxtRead != null) {
 
                 try {

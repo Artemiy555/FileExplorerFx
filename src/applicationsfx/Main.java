@@ -15,7 +15,7 @@ public class Main extends Application {
                 getClass().getResource("Scene.fxml")
         );
 
-        primaryStage.setTitle("File");
+        primaryStage.setTitle("Fill");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
 
